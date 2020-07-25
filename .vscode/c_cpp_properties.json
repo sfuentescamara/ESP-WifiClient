@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\sergio\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\**",
+                "C:\\Users\\sergio\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.2\\**",
+                "C:\\Users\\sergio\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.2\\libraries\\ESP8266WiFi\\src",
+                "C:\\Users\\sergio\\Documents\\ArduinoData\\packages\\esp8266\\hardware\\esp8266\\2.7.2\\libraries\\**"
+            ],
+            "forcedInclude": [],
+            "intelliSenseMode": "gcc-x86"
+        }
+    ],
+    "version": 4
+}
