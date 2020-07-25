@@ -1,0 +1,1 @@
+//Recive la variables del arduino las guarda en un data.txt

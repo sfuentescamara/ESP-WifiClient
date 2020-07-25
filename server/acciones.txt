@@ -1,0 +1,1 @@
+Rellena de tantas lienas como variables tenga el programa (primera variable si el arduino esta conectado o no, recive datos POST_Request)
