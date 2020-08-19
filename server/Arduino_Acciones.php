@@ -1,2 +1,27 @@
-//Recive las variables de los botones del index.php y guarda los cambios de las variables en acciones.txt (una variable una linea del txt)
-//Cada boton cambia una variable (a pares para encender apagar luz) utilizar obligatorio el --> if(isset($_...))
+<?php
+    $Led=$_POST["Led1"];
+    
+    
+    header('Location: /index.php');
+    
+    // Abrimos el archivo datos.txt
+    $acciones = fopen("acciones.txt", "wb");
+    
+    if($Led=="Off"){
+    
+        // Escribimos el valor de la variable "$led"
+        fwrite($acciones, 1);
+    }
+    
+    if($Led == "On"){
+        // Escribimos el valor de la variable "$led"
+        fwrite($acciones, 2);
+    }
+    
+    
+    // Cierra el archivo
+    fclose($datos);
+        
+    
+
+?>

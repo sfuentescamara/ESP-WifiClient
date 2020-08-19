@@ -1,1 +1,0 @@
-Aloja en cada linea una variable diferente de las que tiene el arduino (primera linea si arduino esta conectado).
