@@ -3,8 +3,8 @@
 #include <SPI.h>
 
 //Datos del WiFi
-const char* ssid = "WLAN_0051";
-const char* password = "H8V4U4LXZHRW";
+const char* ssid = ""; //name WIFI
+const char* password = ""; //Pass WIFI
 //String server = "www.aprendiendoarduino.com"; //Tutorial where I got the code
 String server = "pedidos-fuenca.000webhostapp.com";
 //byte google[] = { 64, 233, 187, 99 };
